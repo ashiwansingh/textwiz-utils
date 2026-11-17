@@ -1,0 +1,19 @@
+{
+  "name": "textwiz-utils",
+  "version": "1.0.0",
+  "description": "A small, dependency-free toolkit for common text operations.",
+  "main": "src/index.js",
+  "bin": {
+    "textwiz": "bin/cli.js"
+  },
+  "files": ["src", "bin", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["text", "string", "slugify", "camelcase", "utils", "cli"],
+  "author": "Ashiwan Singh ashiwansingh5016@gmail.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
